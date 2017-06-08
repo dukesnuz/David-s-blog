@@ -21,6 +21,7 @@ define('BLOG', './data/retrieve_posts.php');
 define('CODER', '<a href="http://www.dukesnuz.com">Created and designed by: David Petringa</a>');
 define('VIEW_CODE', '<a href="https://github.com/dukesnuz/Git-David-s-blog"> View the code on Github</a>');
 define('CONTACT', '<a href="http://www.dukesnuz.com/contact/dukesnuz/david/petringa/">Contact</a>');
+define('PORTFOLIO', '<a href="http://dukesnuz.com/portfolio/">The Portfolio of David Petringa</a>');
 
 /*
 //this line used to shut off parts of the site on read page on aside. use true for on false for off
