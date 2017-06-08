@@ -17,7 +17,7 @@ if ($location === "aside_home") {
 		$display_string = "<aside>";
 
 		$display_string .= "<ul>";
-		$display_string .= "<li><a href='./read.php?title=welcome-to-my-blog'>ABOUT</a></li>";
+		$display_string .= "<li><a href='./read.php?title=welcome-to-davids-blog'>ABOUT</a></li>";
 		while ($row = mysqli_fetch_array($r, MYSQLI_ASSOC)) {
 			//$display_string2 .= "<li>$row[month_year]</li>";
 			$month = strtolower(trim(str_replace(" ", "", $row['month'])));
